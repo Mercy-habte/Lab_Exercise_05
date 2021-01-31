@@ -1,0 +1,38 @@
+*{
+    font-weight: normal;
+}
+.calculator-grid {
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(6, 100px);
+
+}
+.equal{
+    grid-row: span 2;
+}
+.addition{
+    grid-row: span 2;
+}
+
+
+
+.output {
+    grid-column: 1 / -1;
+    background-color:rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    color: seashell;
+}
+
+.operand-one{
+    color: seashell;
+}
+
+.operand-two{
+    color: seashell;
+}
